@@ -1,0 +1,17 @@
+<div class="row mt-5">
+    <div class="col-md-5 offset-3">
+        <h4>Добавьте файлы со статьями в формате txt для обучения</h4>
+        <form method="POST" action="/train" enctype="multipart/form-data">
+            <input class="form-control mt-2" type="file" name="files" multiple />
+            <select class="form-control mt-2" name="category">
+                <option value="sport">
+                    Спорт
+                </option>
+                <option value="tech">
+                    Технологии
+                </option>
+            </select>
+            <input type="submit" class="btn btn-block btn-success mt-2" value="Отправить">
+        </form>
+    </div>
+</div>
