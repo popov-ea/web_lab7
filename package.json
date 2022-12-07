@@ -5,9 +5,9 @@
         "name": "Popov E ISIT 179"
     },
     "dependencies": {
-        "body-parser": "^1.19.0",
+        "body-parser": "^1.20.1",
         "csv-reader": "^1.0.6",
-        "express": "^4.17.1",
+        "express": "^4.18.2",
         "express-handlebars": "^4.0.4",
         "hbs": "^4.1.1",
         "mongodb": "^3.5.7",
